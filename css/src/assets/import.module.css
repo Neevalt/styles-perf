@@ -1,0 +1,8 @@
+/* @value r, g, b from "./variables.module.css"; */
+@import "./variables.module.css";
+
+:root {
+  --r: r;
+  --g: g;
+  --b: b;
+}

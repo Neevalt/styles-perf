@@ -1,0 +1,15 @@
+{
+  "name": "style-perf",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install": "(npm i --prefix css) && (npm i --prefix less) && (npm i --prefix less-modifyvars) && (npm i --prefix lightningcss) && (npm i --prefix sass)",
+    "css": "DEBUG='vite:plugin-transform' npm --prefix css run dev",
+    "less": "DEBUG='vite:plugin-transform' npm --prefix less run dev",
+    "less-modifyvars": "DEBUG='vite:plugin-transform' npm --prefix less-modifyvars run dev",
+    "lightningcss": "DEBUG='vite:plugin-transform' npm --prefix lightningcss run dev",
+    "sass": "DEBUG='vite:plugin-transform' npm --prefix sass run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
